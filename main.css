@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(images/sky.jpg);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+form{
+    padding:25px;
+    background-color:#83b3ed88;
+    border-radius: 20px;
+    width:50%;
+    border:2px solid #358af3b8;
+}
+form input{
+    padding:10px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    width:100%;
+    border:2px solid #0a70eeed;
+}
+form input:focus{
+    outline-color: #83b2ed;
+    outline-width: 5px;
+}
+form button{
+    border-radius: 8px;
+    margin:15px auto;
+    padding:10px 10px;
+    width:100%;
+    font-size: 1.2em;
+    color:#0a70eeed;
+    font-weight: 400;
+    border:2px solid #0a70eeed;
+}
+form button:hover{
+    background-color:#83b2ed ;
+    border-color:transparent;
+    color:#fff;
+    cursor: pointer;
+}
+
